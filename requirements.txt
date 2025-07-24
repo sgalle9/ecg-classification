@@ -1,0 +1,8 @@
+dask[complete]
+matplotlib
+neurokit2
+numpy
+pandas
+scikit-learn
+wfdb
+xgboost

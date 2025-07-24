@@ -1,0 +1,28 @@
+README.md
+
+# Ignore data directories
+configs/
+data/
+outputs/
+
+# Ignore Docker specific files
+.dockerignore
+Dockerfile
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Git directory
+.git
+.gitignore
+.gitkeep
+
+# Ignore Python specific files and directories
+*.pyc
+__pycache__/
+.venv
+venv/
+*.ipynb
+
+# IDE / Editor specific
+.vscode/

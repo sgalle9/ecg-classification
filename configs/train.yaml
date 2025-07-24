@@ -1,0 +1,25 @@
+seed: 42
+
+output_dir: "./outputs"
+experiment: my_experiment
+run_id: xgboost                    # if set to None, it defaults to `datetime.now().strftime("%Y-%m-%d_%Hh%Mm%Ss")`
+
+dataset:
+  path: "./data/train"
+  to_csv_params:
+    encoding: "utf-8"
+    compression: null
+
+preprocessor:
+  SimpleImputer:
+    strategy: mean
+  StandardScaler: {}
+
+model:
+  name: XGBoost
+  params:
+    n_jobs: -1
+
+fit_params: {}
+  # model__<param_name>: <value>
+  # preprocessor__<transform_name>__<transform_param_name>: <value>

@@ -1,0 +1,16 @@
+seed: 42
+
+model_dir: "./outputs/my_experiment/xgboost"
+
+output_dir: "./data/test"
+to_csv_params:
+  index: False
+  header: False
+  encoding: "utf-8"
+  compression: null
+
+dataset:
+  path: "./data/test"
+  to_csv_params:
+    encoding: "utf-8"
+    compression: null
