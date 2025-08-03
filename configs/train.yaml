@@ -11,9 +11,9 @@ dataset:
     compression: null
 
 preprocessor:
-  SimpleImputer:
+  sklearn.impute.SimpleImputer:
     strategy: mean
-  StandardScaler: {}
+  sklearn.preprocessing.StandardScaler: {}
 
 model:
   name: XGBoost
