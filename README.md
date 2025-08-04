@@ -1,6 +1,10 @@
 # Atrial Fibrillation Classification from ECGs
 
-This project features an XGBoost classifier designed to categorize short, single-lead ECG recordings into four classes: normal sinus rhythm, atrial fibrillation (AF), other rhythm, or too noisy to be classified. It uses the dataset from the [2017 PhysioNet/CinC Challenge](https://physionet.org/content/challenge-2017/1.0.0/).
+This project focuses on the classification of single-lead electrocardiogram (ECG) recordings. The recordings are categorized into one of four classes: normal sinus rhythm (`N`), atrial fibrillation (`A`), other rhythm (`O`), or too noisy to be classified (`~`).
+
+An XGBoost model was employed for this classification task. The model utilizes features that were extracted from the raw ECG signals.
+
+Training and evaluation were performed using the [2017 PhysioNet/CinC Challenge](https://physionet.org/content/challenge-2017/1.0.0/) dataset.
 
 
 ## Setup
